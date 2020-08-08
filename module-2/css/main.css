@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Sniglet", sans-serif;
+}
+
+body {
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 1.75em;
+}
+
+section {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 10px;
+  background: #ddf3f5;
+}
+
+.section-title {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  position: relative;
+  float: right;
+  right: -8px;
+  top: -8px;
+  padding: 0 30px;
+  font-size: 1.25em;
+}
+
+.section-body {
+  clear: right;
+}
+
+.bg-color-1 {
+  background-color: #efbbcf;
+}
+
+.bg-color-2 {
+  background-color: #cff6cf;
+}
+
+.bg-color-3 {
+  background-color: #f69e7b;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.3%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
